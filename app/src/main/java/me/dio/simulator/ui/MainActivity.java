@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         binding.rvMatches.setHasFixedSize(true);
         binding.rvMatches.setLayoutManager(new LinearLayoutManager(this));
         binding.rvMatches.setAdapter(matchesAdapter);
+        binding.rvMatches.setAdapter(matchesAdapter);
         findMatchesFromApi();
     }
 
@@ -69,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
         binding.fabSimulate.setOnClickListener(view -> view.animate().rotationBy(360).setDuration(500).setListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
+               // Teste do Crashlytics
+               // throw new RuntimeException("Teste Crashlytics");
                 Random random = new Random();
                 for (int i = 0; i < matchesAdapter.getItemCount(); i++) {
                     Match match = matchesAdapter.getMatches().get(i);
