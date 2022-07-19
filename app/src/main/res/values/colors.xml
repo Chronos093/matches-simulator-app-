@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_200">#ff6659</color>
-    <color name="primary_500">#d32f2f</color>
-    <color name="primary_700">#9a0007</color>
+    <color name="primary_200">#80e27e</color>
+    <color name="primary_500">#4caf50</color>
+    <color name="primary_700">#087f23</color>
 
-    <color name="primaryNight_200">#d05ce3</color>
-    <color name="primaryNight_500">#9c27b0</color>
-    <color name="primaryNight_700">#6a0080</color>
+    <color name="primaryNight_200">#4c8c4a</color>
+    <color name="primaryNight_500">#1b5e20</color>
+    <color name="primaryNight_700">#003300</color>
 
-    <color name="secondary_200">#5472d3</color>
-    <color name="secondary_700">#0d47a1</color>
-    <color name="secondary_900">#002171</color>
+    <color name="secondary_200">#fff263</color>
+    <color name="secondary_700">#fbc02d</color>
+    <color name="secondary_900">#c49000</color>
 
-    <color name="secondaryNight_200">#ff6659</color>
-    <color name="secondaryNight_700">#d32f2f</color>
-    <color name="secondaryNight_900">#9a0007</color>
+    <color name="secondaryNight_200">#ffb04c</color>
+    <color name="secondaryNight_700">#f57f17</color>
+    <color name="secondaryNight_900">#bc5100</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
