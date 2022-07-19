@@ -4,9 +4,17 @@
     <color name="primary_500">#d32f2f</color>
     <color name="primary_700">#9a0007</color>
 
+    <color name="primaryNight_200">#d05ce3</color>
+    <color name="primaryNight_500">#9c27b0</color>
+    <color name="primaryNight_700">#6a0080</color>
+
     <color name="secondary_200">#5472d3</color>
     <color name="secondary_700">#0d47a1</color>
     <color name="secondary_900">#002171</color>
+
+    <color name="secondaryNight_200">#ff6659</color>
+    <color name="secondaryNight_700">#d32f2f</color>
+    <color name="secondaryNight_900">#9a0007</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

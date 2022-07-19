@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simulator</string>
+    <string name="app_name">Cup Qualifiers 2022</string>
 
     <string name="cd_simulate">Matches simulation button.</string>
     <string name="cd_home_team">Home team image.</string>
@@ -8,4 +8,6 @@
     <string name="txt_versus" translatable="false">X</string>
 
     <string name="error_api">Unexpected error.</string>
+    <string name="local">Local</string>
+    <string name="data">Data</string>
 </resources>

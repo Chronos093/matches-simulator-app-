@@ -56,7 +56,7 @@
                 android:layout_width="@dimen/team_image_size"
                 android:layout_height="@dimen/team_image_size"
                 android:layout_marginStart="@dimen/margin_default"
-                android:layout_marginTop="@dimen/margin_default"
+                android:layout_marginTop="24dp"
                 android:contentDescription="@string/cd_home_team"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvDescription"
@@ -75,6 +75,16 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Match Description" />
+
+             <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/local"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvDescription"
+                app:layout_constraintStart_toStartOf="@+id/tvDescription"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
 
             <androidx.appcompat.widget.AppCompatRatingBar
                 android:id="@+id/rbHomeTeamStars"
@@ -124,7 +134,7 @@
                 android:id="@+id/ivAwayTeam"
                 android:layout_width="@dimen/team_image_size"
                 android:layout_height="@dimen/team_image_size"
-                android:layout_marginTop="@dimen/margin_default"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="@dimen/margin_default"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvDescription"
@@ -162,6 +172,7 @@
                 app:layout_constraintStart_toEndOf="@+id/tvVersus"
                 app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
                 tools:text="99" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 

@@ -13,5 +13,7 @@ data class Match(
     @SerializedName("mandante")
     val homeTeam: Team,
     @SerializedName("visitante")
-    val awayTeam: Team
+    val awayTeam: Team,
+    @SerializedName("data")
+    val diaJogo: String
 ) : Parcelable

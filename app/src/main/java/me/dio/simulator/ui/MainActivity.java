@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setupHttpClient();
         setupMatchesList();
         setupMatchesRefresh();
-        setupFloatingActionButton();
+        //setupFloatingActionButton();
     }
 
     private void setupHttpClient() {
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupMatchesRefresh() {
         binding.srlMatches.setOnRefreshListener(this::findMatchesFromApi);
     }
-
+/*
     private void setupFloatingActionButton() {
         binding.fabSimulate.setOnClickListener(view -> view.animate().rotationBy(360).setDuration(500).setListener(new AnimatorListenerAdapter() {
             @Override
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
     }
-
+*/
     private void findMatchesFromApi() {
         binding.srlMatches.setRefreshing(true);
         matchesApi.getMatches().enqueue(new Callback<List<Match>>() {
@@ -107,6 +107,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showErrorMessage() {
-        Snackbar.make(binding.fabSimulate, R.string.error_api, Snackbar.LENGTH_LONG).show();
+      //  Snackbar.make(binding.fabSimulate, R.string.error_api, Snackbar.LENGTH_LONG).show();
     }
 }
