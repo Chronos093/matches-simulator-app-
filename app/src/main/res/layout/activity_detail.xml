@@ -173,6 +173,27 @@
                 app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
                 tools:text="99" />
 
+            <TextView
+                android:id="@+id/tvArbitro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arbitro"
+                app:layout_constraintBottom_toBottomOf="@+id/ivArbitro"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ivArbitro" />
+
+            <ImageView
+                android:id="@+id/ivArbitro"
+                android:layout_width="40dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/tvArbitro"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvAwayTeamName"
+                tools:srcCompat="@tools:sample/avatars" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 

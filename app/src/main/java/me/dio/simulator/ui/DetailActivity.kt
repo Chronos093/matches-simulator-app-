@@ -1,5 +1,6 @@
 package me.dio.simulator.ui
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
@@ -26,6 +27,7 @@ class DetailActivity : AppCompatActivity() {
         loadMatchFromExtra()
     }
 
+    @SuppressLint("SetTextI18n")
     private fun loadMatchFromExtra() {
         intent?.extras?.getParcelable<Match>(Extras.MATCH)?.let {
             Glide.with(this).load(it.place.image).into(binding.ivPlace)
@@ -52,6 +54,8 @@ class DetailActivity : AppCompatActivity() {
                 binding.tvAwayTeamScore.text = it.awayTeam.score.toString()
             }
              */
+            Glide.with(this).load(it.arbitro.image).into(binding.ivArbitro)
+            binding.tvArbitro.text = "Árbitro: " + it.arbitro.name
         }
     }
 }
